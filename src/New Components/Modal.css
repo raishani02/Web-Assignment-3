@@ -1,0 +1,200 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .modal-main {
+    
+    position:fixed;
+    background: white;
+    width: 400px;
+    height: 75%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .display-block {
+    display: block;
+  }
+  
+  .display-none {
+    display: none;
+  }
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+
+  .App-link {
+    color: #61dafb;
+  }
+  
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  
+  .form {
+    /* width: 320px; */
+    text-align: center;
+    background-color:#f2f2f2;;
+    text-align: center;
+    }
+
+    .Modal-header{
+      margin-left: 30%;
+    }
+    
+    .label{
+    display: block;
+    font-size: larger;
+    color: white;
+    padding: 5px;
+    }
+    
+    .input{
+    font-size: larger;
+    padding: 5px;
+    margin: 2px;
+    }
+
+    .btn{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-size: larger;
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+    }
+    
+    .messages{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .error{
+    display: block;
+    background-color: red;
+    color: white;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+    }
+    
+    .success{
+    display: block;
+    background-color: lightblue;
+    color: black;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+    }
+
+
+    .clearfix:after {
+      visibility: hidden;
+      display: block;
+      font-size: 0;
+      content: " ";
+      clear: both;
+      height: 0;
+    }
+    .clearfix {
+      display: inline-block;
+    }
+    /* start commented backslash hack \*/
+    * html .clearfix {
+      height: 1%;
+    }
+    .clearfix {
+      display: block;
+    }
+
+    .pull-right {
+      float: right;
+    }
+    a {
+      color: #00A885;
+    }
+
+    button {
+      cursor: pointer;
+      background: #00A885;
+      width: 100%;
+      border: 0;
+      padding: 10px 15px;
+      color: #fff;
+      font-size: 20px;
+      -webkit-transition: 0.3s linear;
+      transition: 0.3s linear;
+    }
+    .pull-left {
+      float: left;
+    }
+
+
+     .remember-me {
+      cursor: pointer;
+    }
+    input[type="checkbox"] {
+      float: left;
+      margin-right: 5px;
+      margin-top: 2px;
+      cursor: pointer;
+    }
+    label[for="rememberMe"] {
+      cursor: pointer;
+    }
+
+
+
+
+
+    .btn-facebook {
+      background: #3b5c9f;
+      border: 1px solid #3b5c9f;
+      color: #F7F7F7;
+      font-weight: 700;
+      text-shadow: 0 -1px transparent;
+  }
+  .btn-large {
+    padding: 13px 22px;
+    font-size: 20px;
+    font-size: 1.25rem;
+    border-radius: 0;
+    font-weight: 700;
+}
+
+.Icon {
+  display: inline-block;
+  fill: #f2f3f6;
+  vertical-align: middle;
+}
+
+.Icon--large .Icon-image {
+  height: 32px;
+  width: 32px;
+}
